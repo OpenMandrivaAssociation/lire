@@ -52,7 +52,6 @@ Requires:	ploticus
 Requires:	tetex-dvips
 Requires:	tetex-latex
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Lire is the versatile log analyser. It can generate
