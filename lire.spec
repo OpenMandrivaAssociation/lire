@@ -124,7 +124,7 @@ export TAI64NLOCAL="%{_bindir}/tai64nlocal"
 
 %configure2_5x \
     --with-spooldir=/var/spool/%{name} \
-    --with-archivedir=%{_localstatedir}/%{name} \
+    --with-archivedir=%{_localstatedir}/lib/%{name} \
     --with-perl5libdir=%{perl_vendorlib}
 
 %make
@@ -143,7 +143,7 @@ rm -fr %{buildroot}/%{_datadir}/doc/%{name}
 install -d %{buildroot}%{_sbindir}
 install -d %{buildroot}%{_sysconfdir}/cron.d
 install -d %{buildroot}%{_sysconfdir}/sysconfig/lire.d
-install -d %{buildroot}%{_localstatedir}/%{name}
+install -d %{buildroot}%{_localstatedir}/lib/%{name}
 install -d %{buildroot}/var/spool/%{name}
 
 # Install lr_vendor_cron script and crontab
@@ -153,7 +153,7 @@ install -m0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/cron.d/%{name}
 install -m0644 Mandriva/*.cfg %{buildroot}%{_sysconfdir}/sysconfig/lire.d/
 
 %pre
-%_pre_useradd lire %{_localstatedir}/%{name} /bin/sh
+%_pre_useradd lire %{_localstatedir}/lib/%{name} /bin/sh
 
 %postun
 %_postun_userdel lire
@@ -192,7 +192,7 @@ install -m0644 Mandriva/*.cfg %{buildroot}%{_sysconfdir}/sysconfig/lire.d/
 %{_mandir}/man7/*
 
 %dir %attr(0770,lire,lire) /var/spool/%{name}
-%dir %attr(0770,lire,lire) %{_localstatedir}/%{name}
+%dir %attr(0770,lire,lire) %{_localstatedir}/lib/%{name}
 
 # this is to please mr. lint some
 %files -n perl-%{name}
