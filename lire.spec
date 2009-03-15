@@ -1,8 +1,8 @@
 Summary:	A log analyser supporting many log formats
 Name:		lire
-Version:	2.0.2
-Release:	%mkrel 3
-License:	GPL
+Version:	2.1
+Release:	%mkrel 1
+License:	GPLv2+
 Group:		Monitoring
 URL:		http://www.logreport.org/
 Source0:	http://download.logreport.org/pub/%{name}-%{version}.tar.gz
@@ -32,7 +32,7 @@ BuildRequires:	jadetex
 BuildRequires:	libxslt-proc
 BuildRequires:	openjade
 BuildRequires:	perl-Curses-UI
-BuildRequires:	perl-DBD-SQLite2
+BuildRequires:	perl-DBD-SQLite
 BuildRequires:	perl-Time-modules
 BuildRequires:	perl-XML-Parser
 BuildRequires:	perl-devel
