@@ -1,0 +1,16 @@
+sources:
+  "lire-2.0.1-mdk-bind.cfg.bz2:"	0659275bc362fddf9e4f2076b6a441bfa8b9dab9
+  "lire-2.0.1-mdk-cups.cfg.bz2:"	867a632ee4205a97f3eb7d19dbb63f6997473616
+  "lire-2.0.1-mdk-httpd.cfg.bz2:"	1904af9bb6ea49d122d08bf9c5e40b823572e81d
+  "lire-2.0.1-mdk-httpd-perl.cfg.bz2:"	3e01ed5e214e618824000d752e2ea84632de6a35
+  "lire-2.0.1-mdk-iptables.cfg.bz2:"	b783ea0a6134eabb0752b3c378c98530a4856f10
+  "lire-2.0.1-mdk-mysql.cfg.bz2:"	188df7e101882e0fac61174b090c1b8caa0e8ace
+  "lire-2.0.1-mdk-postfix.cfg.bz2:"	dc54e80ee7a7dae8840af8c6ecdf971f41b66644
+  "lire-2.0.1-mdk-postgresql.cfg.bz2:"	89ce9de5e0d3a9a7329ca38bbcc283a385884664
+  "lire-2.0.1-mdk-proftpd.cfg.bz2:"	6cb5e55dc8eb85eba67218609046439af3bfb8a0
+  "lire-2.0.1-mdk-spamassassin.cfg.bz2:"	1ade2e3af6a7193a2cf5834c0182dae259c720e2
+  "lire-2.0.1-mdk-squid.cfg.bz2:"	621dfa0f40a46c727f7fabea38bc1518b07d1190
+  "lire-2.0.1-mdk-syslog.cfg.bz2:"	271221130a9e8ca54f4eede2dd74780e6b93cdfd
+  "lire-2.1.tar.gz:"	cbf57ecbaffc1e5e44f7c5270b8e1dab28da9a78
+  "lire-2.1.tar.gz.asc:"	e08344dda937a694b4ba178c118c183e02e13c73
+  "lire.crontab:"	49a4605af92f63fd73ca9c835f7aa07c6dda1ea7
