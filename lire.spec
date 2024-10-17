@@ -4,7 +4,7 @@ Version:	2.1
 Release:	%mkrel 3
 License:	GPLv2+
 Group:		Monitoring
-URL:		http://www.logreport.org/
+URL:		https://www.logreport.org/
 Source0:	http://download.logreport.org/pub/%{name}-%{version}.tar.gz
 Source1:	http://download.logreport.org/pub/%{name}-%{version}.tar.gz.asc
 Source2:	lire.crontab
