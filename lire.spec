@@ -24,6 +24,11 @@ Requires(post): rpm-helper perl-%{name} = %{version}
 Requires(preun): rpm-helper perl-%{name} = %{version}
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	docbook-dtd412-xml
 BuildRequires:	docbook-style-dsssl
 BuildRequires:	docbook-style-xsl
