@@ -1,7 +1,7 @@
 Summary:	A log analyser supporting many log formats
 Name:		lire
 Version:	2.1
-Release:	%mkrel 3
+Release:	4
 License:	GPLv2+
 Group:		Monitoring
 URL:		https://www.logreport.org/
